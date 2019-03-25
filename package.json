@@ -1,0 +1,10 @@
+{
+  "name": "temp-bot",
+  "version": "1.0.0",
+  "description": "Fuck if i know yet",
+  "main": "bot.js",
+  "author": "Kelly Payne",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
