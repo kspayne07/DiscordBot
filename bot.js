@@ -37,4 +37,4 @@ function hangmanCommand(arguments, receivedMessage){
 	receivedMessage.channel.send('hangman command successfully called good job Kelly you doomie')
 }
 
-bot.login("NTU5ODAyOTI1MTA3MzgwMjI0.D3r7DA.rcis_wh4baAX8nd2H0EVcBwT_f8") // Replace XXXXX with your bot token
+bot.login("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") // Replace XXXXX with your bot token
