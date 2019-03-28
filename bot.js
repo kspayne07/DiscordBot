@@ -34,7 +34,13 @@ function processCommand(receivedMessage){
 }
 
 function hangmanCommand(arguments, receivedMessage){
-	receivedMessage.channel.send('hangman command successfully called good job Kelly you doomie')
+	receivedMessage.channel.send({embed: {
+		color: 3447003,
+		description: "A game of Hangman has been started! React with :white_check_mark: to join and :negative_squared_cross_mark: to leave."
+}});
+	receivedMessage.react(':white_check_mark:')
+	receivedMessage.react(':negative_squared_cross_mark:')
+	
 }
 
-bot.login("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") // Replace XXXXX with your bot token
+bot.login("X") // Replace XXXXX with your bot token
